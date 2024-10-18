@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: azure;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(2, 2, 2, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.search-form input {
+  padding: 1rem;
+  width: 25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.search-form button {
+  padding: 1rem 1.5rem;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #778577;
+}
+
+.word-details {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.word-details h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.word-details p {
+  margin: 0.5rem 0;
+}
+
+.spinner {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+}
