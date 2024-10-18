@@ -36,6 +36,7 @@ body {
 }
 
 .search-form input {
+  display: flex;
   padding: 1rem;
   width: 25rem;
   border: 1px solid #ccc;
@@ -44,6 +45,7 @@ body {
 }
 
 .search-form button {
+  display: flex;
   padding: 1rem 1.5rem;
   background-color: gray;
   color: white;
@@ -78,4 +80,10 @@ body {
 .error-message {
   text-align: center;
   color: red;
+}
+
+@media screen and (maxwidth: 357px) {
+  .search-form  {
+    flex-direction: column;
+  }
 }
